@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home Page
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        <ion-icon name="log-out"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+    <ion-card>
+ 
+      <ion-item>
+        <ion-avatar>
+          <img src="https://www.tm-town.com/assets/default_male300x300-aae6ae0235b6cd78cee8df7ae19f6085.png">
+        </ion-avatar>
+      </ion-item>
+ 
+      <ion-card-content>
+ 
+        <ion-list no-lines>
+ 
+          <ion-item>
+            Hello!
+          </ion-item>
+ 
+          <ion-item>
+            Welcome
+          </ion-item>
+ 
+        </ion-list>
+ 
+      </ion-card-content>
+ 
+    </ion-card>
+ 
+    <button ion-button icon-right outline color="light" (click)="logOut()">Logout <ion-icon name="arrow-forward"></ion-icon></button>
+ 
+</ion-content>
